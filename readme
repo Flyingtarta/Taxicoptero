@@ -1,0 +1,8 @@
+español:
+
+-pegar la carpeta en la carpeta raiz de la mision, al lado del mission.sqm
+-en el helicoptero a usar pegar el siguiente codigo:
+
+null = [this, [x,y,z] ] execvm "heli_v1\heli.sqf"; 
+
+donde [ x, y , z] es la posicion donde queres que aterrize.
